@@ -12,7 +12,7 @@
 
 Welcome
 
-<form action="AddServlet">
+<form action="<%=request.getContextPath()%>/AddServlet">
 State<input type="text" name="statename">
 <input type="submit" value="Add">
 </form>
