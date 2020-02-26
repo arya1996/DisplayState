@@ -8,5 +8,10 @@
 </head>
 <body>
 Welcome
+
+<form action="AddServlet">
+State<input type="text" name="statename">
+<input type="submit" value="Add">
+</form>
 </body>
 </html>
